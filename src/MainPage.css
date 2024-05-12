@@ -1,6 +1,7 @@
 .mainpage{
     display: flex;
     flex-direction: row;
+
 }
 
 .navigation{
