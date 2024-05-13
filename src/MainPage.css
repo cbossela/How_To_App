@@ -6,10 +6,8 @@
 .navigation{
     flex: 0.2;
     margin-right: 20px;
-    
 }
 
 .explanation{
     flex: 0.8;
-    text-align: center;
 }
