@@ -6,6 +6,7 @@ import JavaScriptHowTo from "./components/JavaScriptHowTo";
 import ReactHowTo from "./components/ReactHowTo";
 import { useRef } from "react";
 import Navigation from "./navigation/Navigation";
+import Title from "./components/Title";
 
 function MainPage() {
   const HTMLSection = useRef<null | HTMLDivElement>(null);
@@ -26,6 +27,9 @@ function MainPage() {
         />
       </div>
       <div className="explanation">
+        <div>
+          <Title />
+        </div>
         <div ref={HTMLSection}>
           <HTMLHowTo />
         </div>

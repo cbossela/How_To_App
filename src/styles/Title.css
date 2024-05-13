@@ -1,0 +1,11 @@
+.title {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Arial", sans-serif; 
+    background-color: aliceblue;
+    font-size: 30px;
+    color: #333;
+    margin-top: 0; 
+    text-align: center;
+}
