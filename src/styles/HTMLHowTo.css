@@ -4,14 +4,56 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    font-family: "Arial", sans-serif; 
+    background-color: aliceblue;
 }
 
 .html-how-to-container h1 {
-    font-size: 24px;
+    font-size: 70px;
     color: #333;
+    margin-top: 0; 
 }
 
 .html-how-to-container p {
-    font-size: 16px;
+    font-size: 20px;
     color: #666;
 }
+
+.html-how-to-container img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    display: block; /* Ensure images don't have extra space below them */
+    margin-bottom: 20px; /* Add some spacing between images and text */
+  }
+  
+.first-image-container {
+    text-align: center; 
+}
+
+.first-image {
+    width: 70%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.second-image {
+    float: left;
+    margin-right: 20px; 
+    width: 200px; 
+}
+
+.html-how-to-container h2 {
+    text-align: left; 
+    font-size: 35px;
+    background-color:#FFC300 ;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.section-divider {
+    border-top: 2px solid #333; 
+    margin: 20px 0; 
+}
+  
