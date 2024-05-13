@@ -1,0 +1,17 @@
+/* GitHubHowTo.css */
+
+.GitHub-how-to-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.GitHub-how-to-container h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.GitHub-how-to-container p {
+    font-size: 16px;
+    color: #666;
+}
