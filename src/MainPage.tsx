@@ -33,9 +33,9 @@ function MainPage() {
         <div ref={HTMLSection}>
           <HTMLHowTo />
         </div>
-        {/* <div ref={Navigation.CSSSection}>
+        <div ref={CSSSection}>
           <CSSHowTo />
-        </div> */}
+        </div>
         <div ref={GitHubSection}>
           <GitHubHowTo />
         </div>
